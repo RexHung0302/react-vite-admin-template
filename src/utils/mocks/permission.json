@@ -1,0 +1,7 @@
+{
+  "dashboard": ["C", "R", "U", "D"],
+  "player-basic-info": ["C", "R", "U", "D"],
+  "player-list-info": ["R"],
+  "report-win-lose": ["C", "R", "U", "D"],
+  "member-basic-info": ["C", "R"]
+}

@@ -1,0 +1,7 @@
+!*.css
+!*.scss
+
+node_modules
+bin
+dist
+build

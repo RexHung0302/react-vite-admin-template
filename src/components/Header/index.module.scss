@@ -1,0 +1,21 @@
+.header {
+  align-items: center;
+  background: linear-gradient(45deg, #000, #47caff, #bd34fe) !important;
+  display: flex;
+  padding: 0 20px !important;
+
+  &-logo {
+    align-items: center;
+    display: flex;
+    height: 80%;
+    max-width: 80px;
+    position: relative;
+  }
+}
+
+.icon {
+  i {
+    cursor: pointer;
+    font-size: 20px;
+  }
+}

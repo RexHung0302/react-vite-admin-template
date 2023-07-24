@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "\033[32m -- 1. 檢查 Lint 相關格式及樣式 -- \033[0m"
+npx lint-staged
+echo "\033[32m -- 結束 Lint 相關格式及樣式檢查 -- \033[0m"
+
+echo "\033[32m -- 2. 開始檢查 ESLint -- \033[0m"
+yarn lint
+echo "\033[32m -- 結束 ESLint 檢查 -- \033[0m"
+
+echo "\033[32m -- 3. 開始檢查 Test -- \033[0m"
+yarn test --watchAll=false
+echo "\033[32m -- 結束 Test 檢查 -- \033[0m"
